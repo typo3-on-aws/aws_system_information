@@ -20,7 +20,7 @@ use TYPO3\CMS\Core\Http\RequestFactory;
 use GuzzleHttp\Exception\RequestException;
 
 /**
- * Signal Service
+ * System Information Slot
  */
 class SystemInformationSlot
 {
@@ -55,15 +55,6 @@ class SystemInformationSlot
     const HTTP_TIMEOUT = 4;
 
     /**
-     * Constructor
-     *
-     * @access public
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * Adds environment information for System Information Toolbar
      *
      * @access public
@@ -74,7 +65,6 @@ class SystemInformationSlot
         // Set system information entry
         $systemInformation->addSystemInformation(...$this->getInstanceType());
     }
-
 
     /**
      * Returns the instance type, e.g. "t2.medium"
