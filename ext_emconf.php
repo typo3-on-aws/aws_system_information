@@ -16,20 +16,18 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'AWS System Information',
     'description' => 'Extend System Information panel to show Amazon EC2 instance type, e.g. t2.large',
-    'category' => 'backend',
-    'author' => 'Michael Schams',
+    'category' => 'module',
+    'state' => 'stable',
+    'clearCacheOnLoad' => 0,
+    'author' => 'Michael Schams <schams.net>',
     'author_email' => '',
     'author_company' => 'schams.net',
-    'version' => '8.0.0',
-    'state' => 'beta',
+    'version' => '10.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.6.99'
+            'typo3' => '10.0.0-10.5.99',
         ],
-        'conflicts' => [
-        ],
+        'conflicts' => [],
+        'suggests' => [],
     ],
-    'uploadfolder' => 0,
-    'createDirs' => '',
-    'clearCacheOnLoad' => 1
 ];
