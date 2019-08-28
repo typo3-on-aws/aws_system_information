@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^8 || ^9"
+        "typo3/cms-core": "^8 || ^9 || ^10"
     },
     "replace": {
         "aws_system_information": "self.version",
