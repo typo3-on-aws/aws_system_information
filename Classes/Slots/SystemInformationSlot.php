@@ -11,7 +11,7 @@ namespace Typo3OnAws\AwsSystemInformation\Slots;
  * @package     TYPO3
  * @subpackage  aws_system_information
  * @author      Michael Schams <schams.net>
- * @link        https://typo3-on-aws.org
+ * @link        https://t3rrific.com/typo3-on-aws/
  */
 
 use TYPO3\CMS\Backend\Backend\ToolbarItems\SystemInformationToolbarItem;

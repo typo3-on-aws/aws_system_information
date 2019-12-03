@@ -2,7 +2,7 @@
     "name": "typo3-on-aws/aws-system-information",
     "type": "typo3-cms-extension",
     "description": "Adds the Amazon EC2 instance type (e.g. t2.large) to the system information panel in the TYPO3 backend",
-    "homepage": "https://typo3-on-aws.org",
+    "homepage": "https://t3rrific.com/typo3-on-aws/",
     "authors": [
         {
             "name": "Michael Schams",
